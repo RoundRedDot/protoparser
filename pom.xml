@@ -96,7 +96,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.12.4</version>
+        <version>3.5.2</version>
         <executions>
           <execution>
             <id>default-test</id>
@@ -114,7 +114,7 @@
 
       <plugin>
         <artifactId>maven-source-plugin</artifactId>
-        <version>2.1</version>
+        <version>3.3.1</version>
         <configuration>
           <attach>true</attach>
         </configuration>
@@ -131,7 +131,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>2.9.1</version>
+        <version>3.11.2</version>
         <configuration>
           <aggregate>true</aggregate>
         </configuration>
